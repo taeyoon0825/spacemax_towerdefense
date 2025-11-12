@@ -167,7 +167,7 @@ class Tower(pygame.sprite.Sprite):
         image_file = {
             'common': 'image/minion1.png',
             'rare': 'image/minion2.png',
-            'epic': 'mimage/inion3.png',
+            'epic': 'image/minion3.png',
             'legendary': 'image/vairon.png',
             'mythic': 'image/dragon.png'
         }[rarity]
