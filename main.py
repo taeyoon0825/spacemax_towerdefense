@@ -84,13 +84,13 @@ class Enemy(pygame.sprite.Sprite):
 
         # 🐝 이미지 불러오기
         if boss_type == "mid":        # 중간보스
-            self.image = pygame.image.load("bee2.png")
+            self.image = pygame.image.load("image/bee2.png")
             self.image = pygame.transform.scale(self.image, (80, 80))
         elif boss_type == "main":     # 메인보스
-            self.image = pygame.image.load("bee3.png")
+            self.image = pygame.image.load("image/bee3.png")
             self.image = pygame.transform.scale(self.image, (100, 100))
         else:                         # 일반몹
-            self.image = pygame.image.load("bee1.png")
+            self.image = pygame.image.load("image/bee1.png")
             self.image = pygame.transform.scale(self.image, (60, 60))
 
         self.rect = self.image.get_rect()
@@ -165,11 +165,11 @@ class Tower(pygame.sprite.Sprite):
 
         # 🏰 등급별 이미지 파일 (일단 파일명 예시)
         image_file = {
-            'common': 'minion1.png',
-            'rare': 'minion2.png',
-            'epic': 'minion3.png',
-            'legendary': 'vairon.png',
-            'mythic': 'dragon.png'
+            'common': 'image/minion1.png',
+            'rare': 'image/minion2.png',
+            'epic': 'mimage/inion3.png',
+            'legendary': 'image/vairon.png',
+            'mythic': 'image/dragon.png'
         }[rarity]
 
         # 🧩 등급별 크기 조정 (10씩 증가)
@@ -262,7 +262,7 @@ def main():
     pygame.display.set_caption('Spacemax Tower Defense')
     clock = pygame.time.Clock()
 
-    background = pygame.image.load("map.png")
+    background = pygame.image.load("image/map.png")
     background = pygame.transform.scale(background, (SCREEN_WIDTH, SCREEN_HEIGHT))
 
     path = [
