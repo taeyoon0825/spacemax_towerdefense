@@ -7,7 +7,7 @@
 
 ## 📚 설계 및 내용은 노션에 적어두었습니다!
 
-### 노션 링크 [**NOTION**](https://www.notion.so/2025-11-11-2a8f1ffc929c80d29a0bc040cccca623?source=copy_link)
+### [**노션 링크**](https://www.notion.so/2025-11-11-2a8f1ffc929c80d29a0bc040cccca623?source=copy_link)
 
 ---
 
