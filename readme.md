@@ -7,11 +7,11 @@
 
 ## 📚 설계 및 내용은 노션에 적어두었습니다!
 
-### 노션 링크
+### 노션 링크 [**NOTION**](https://www.notion.so/2025-11-11-2a8f1ffc929c80d29a0bc040cccca623?source=copy_link)
 
 ---
 
-## 🎮 게임 개요 [**NOTION**](https://www.notion.so/2025-11-11-2a8f1ffc929c80d29a0bc040cccca623?source=copy_link)
+## 🎮 게임 개요
 
 적들이 정해진 경로를 따라 몰려오고, 플레이어는 다양한 등급의 타워를 배치해 방어하는 **전략형 타워 디펜스 게임**입니다.  
 웨이브가 진행될수록 적들의 체력과 수가 증가하며,  
